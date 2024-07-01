@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Multi_threading.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodOne/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodOne/PrintAbhay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodOne/PrintAm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodOne/PrintI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodOne/PrintState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodOne/Turn.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print words in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/PrintState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/PrintWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/Turn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +45,11 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PrintStrings.MethodTwo" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +59,20 @@
       <option name="presentableId" value="Default" />
       <updated>1719838554529</updated>
     </task>
+    <task id="LOCAL-00001" summary="print words in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1719844976913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844976913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="print words in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="print words in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
