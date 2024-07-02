@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print words in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/PrintState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/PrintWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrintStrings/MethodTwo/Turn.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print words method 2 in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/OddEven/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven/PrintEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven/PrintOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven/PrintState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="PrintStrings.MethodTwo" />
@@ -67,12 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719844976913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="print words method 2 in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1719849026513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719849026513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="print words in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="print words in multi-threaded env" />
+    <MESSAGE value="print words method 2 in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="print words method 2 in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
