@@ -19,7 +19,7 @@ public class PrintOdd implements Runnable{
                     }
                 }
 
-                System.out.println("Print Odd " + state.curNum);
+                System.out.println("Print Odd " + state.curNum + " " + Thread.currentThread().getName());
                 state.curNum += 1;
 
                 state.notifyAll();

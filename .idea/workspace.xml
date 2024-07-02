@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print words method 2 in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/OddEven/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEven/PrintEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEven/PrintOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEven/PrintState.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print odd even method 1 in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/OddEven/MethodTwo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven/MethodTwo/PrintSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven/MethodTwo/PrintState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OddEven/MethodTwo/Turn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddEven/MethodOne/PrintEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OddEven/MethodOne/PrintEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddEven/MethodOne/PrintOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OddEven/MethodOne/PrintOdd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -76,13 +78,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719849026513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="print odd even method 1 in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1719891262156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719891262156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="print words in multi-threaded env" />
     <MESSAGE value="print words method 2 in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="print words method 2 in multi-threaded env" />
+    <MESSAGE value="print odd even method 1 in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="print odd even method 1 in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

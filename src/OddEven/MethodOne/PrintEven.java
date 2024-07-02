@@ -19,7 +19,7 @@ public class PrintEven implements Runnable{
                     }
                 }
 
-                System.out.println("Print Even " + state.curNum);
+                System.out.println("Print Even " + state.curNum + " " + Thread.currentThread().getName());
                 state.curNum += 1;
 
                 state.notifyAll();
