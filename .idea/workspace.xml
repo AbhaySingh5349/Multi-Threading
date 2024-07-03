@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print odd even fibonacci series in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/BoundedBlockingQueue/CustomQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoundedBlockingQueue/Main.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="blocking q in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/Singleton/CustomSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719948128704</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="blocking q in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1719980409059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719980409060</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,7 +132,8 @@
     <MESSAGE value="print odd even method 2 in multi-threaded env" />
     <MESSAGE value="print zero odd even series in multi-threaded env" />
     <MESSAGE value="print odd even fibonacci series in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="print odd even fibonacci series in multi-threaded env" />
+    <MESSAGE value="blocking q in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="blocking q in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
