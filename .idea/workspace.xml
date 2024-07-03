@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print zero odd even series in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/OddEvenFibonacci/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenFibonacci/PrintEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenFibonacci/PrintFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenFibonacci/PrintOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenFibonacci/PrintState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OddEvenFibonacci/Turn.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="print odd even fibonacci series in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/BoundedBlockingQueue/CustomQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoundedBlockingQueue/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719944443666</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="print odd even fibonacci series in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1719948128704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719948128704</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,7 +123,8 @@
     <MESSAGE value="print odd even method 1 in multi-threaded env" />
     <MESSAGE value="print odd even method 2 in multi-threaded env" />
     <MESSAGE value="print zero odd even series in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="print zero odd even series in multi-threaded env" />
+    <MESSAGE value="print odd even fibonacci series in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="print odd even fibonacci series in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
