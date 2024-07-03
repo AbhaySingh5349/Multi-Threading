@@ -8,6 +8,7 @@ package Singleton;
 // "volatile" keyword ensures that variable is read & written to main memory bypassing thread-local caches
 // useful when try to store some "state" in system
 // not used much as most of services are state-less (req-res cycle), so everything starts & end in same thread, across thread there is not much interaction at service level
+// if we are storing something "in-memory", then its important to declare storage object as volatile because
 
 public class CustomSingleton {
     private static volatile CustomSingleton instance;
