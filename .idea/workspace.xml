@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Message Broker in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/ConsumerWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/IConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskSchedulerAt.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Task Scheduler at given time in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Fork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Philosopher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720013186116</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Task Scheduler at given time in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1720031755924</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720031755924</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,7 +170,8 @@
     <MESSAGE value="singleton class in multi-threaded env" />
     <MESSAGE value="Simple Queue Service in multi-threaded env" />
     <MESSAGE value="Message Broker in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Message Broker in multi-threaded env" />
+    <MESSAGE value="Task Scheduler at given time in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task Scheduler at given time in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
