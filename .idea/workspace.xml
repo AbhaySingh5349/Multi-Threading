@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Naive approach for Stock Trading in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/IExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/MatchingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/OrderExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/OrderType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/StockExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/StockExecutor.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Optimized approach for Stock Trading in multi-threaded env">
+      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/ClassThread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/ClassThread/TaskUsingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/InterfaceThread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/InterfaceThread/TaskUsingRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/StockExchange/OptimizedApproach",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/StockExchange/OptimizedApproach&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ACER\IdeaProjects\Java_Multi_threading\src\StockExchange\OptimizedApproach" />
@@ -183,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720077593702</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Optimized approach for Stock Trading in multi-threaded env">
+      <option name="closed" value="true" />
+      <created>1720090905836</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720090905837</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,7 +202,8 @@
     <MESSAGE value="Task Scheduler at given time in multi-threaded env" />
     <MESSAGE value="Dining Philosophers in multi-threaded env" />
     <MESSAGE value="Naive approach for Stock Trading in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Naive approach for Stock Trading in multi-threaded env" />
+    <MESSAGE value="Optimized approach for Stock Trading in multi-threaded env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized approach for Stock Trading in multi-threaded env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
