@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Optimized approach for Stock Trading in multi-threaded env">
-      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/ClassThread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/ClassThread/TaskUsingThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/InterfaceThread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/InterfaceThread/TaskUsingRunnable.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="creating thread using Thread class and Implementing Runnable">
+      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/FactorialMT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreatingThreads/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720090905837</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="creating thread using Thread class and Implementing Runnable">
+      <option name="closed" value="true" />
+      <created>1720111968446</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720111968446</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +209,8 @@
     <MESSAGE value="Dining Philosophers in multi-threaded env" />
     <MESSAGE value="Naive approach for Stock Trading in multi-threaded env" />
     <MESSAGE value="Optimized approach for Stock Trading in multi-threaded env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized approach for Stock Trading in multi-threaded env" />
+    <MESSAGE value="creating thread using Thread class and Implementing Runnable" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating thread using Thread class and Implementing Runnable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
