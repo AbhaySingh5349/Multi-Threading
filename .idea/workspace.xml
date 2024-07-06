@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="executor service">
-      <change afterPath="$PROJECT_DIR$/src/MultithreadingIssues/MemoryConsistency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultithreadingIssues/MemoryConsistency/ReadWriteTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultithreadingIssues/RaceCondition/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultithreadingIssues/RaceCondition/RaceCondition.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="multithreading issues">
+      <change afterPath="$PROJECT_DIR$/src/ExecutorService/ParallelExecutionExample/AirIndia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecutorService/ParallelExecutionExample/Indigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecutorService/ParallelExecutionExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExecutorService/ParallelExecutionExample/Vistara.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720253486330</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="multithreading issues">
+      <option name="closed" value="true" />
+      <created>1720270707571</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720270707571</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +238,8 @@
     <MESSAGE value="creating thread using Thread class and Implementing Runnable" />
     <MESSAGE value="parallel streams and join" />
     <MESSAGE value="executor service" />
-    <option name="LAST_COMMIT_MESSAGE" value="executor service" />
+    <MESSAGE value="multithreading issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="multithreading issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
