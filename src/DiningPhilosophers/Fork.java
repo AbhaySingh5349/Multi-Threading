@@ -5,24 +5,30 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Fork {
     private int index;
-    private boolean isAvailable;
     private Lock lock;
 
     public Fork(Integer index) {
         this.index = index;
-        this.isAvailable = true;
-        this.lock = new ReentrantLock(true); // fairness in locking i.e 1st person to
+        this.lock = new ReentrantLock(true); // fairness in locking i.e 1st person to (Avoids starvation for threads)
     }
 
-    public void markForkAvailable(){
-        this.isAvailable = true;
-    }
-
-    public void markForkUnavailable(){
-        this.isAvailable = false;
+    public int getIndex() {
+        return index;
     }
 
     public Lock getLock() {
         return lock;
+    }
+
+    public boolean pickUpTry() {
+        return lock.tryLock();
+    }
+
+    public void pickUp() {
+        lock.lock();
+    }
+
+    public void putDown() {
+        lock.unlock();
     }
 }

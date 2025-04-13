@@ -1,5 +1,7 @@
 package DiningPhilosophers;
 
+import java.time.LocalTime;
+
 public class Philosopher implements Runnable{
     private final Fork leftFork;
     private final Fork rightFork;
@@ -13,25 +15,31 @@ public class Philosopher implements Runnable{
 
     @Override
     public void run() {
-        while (true){
+        int eatingRounds = 3;
+        while (eatingRounds-- > 0){
             think();
 
             // since if any exception occurs after we acquired lock, we should not hold lock infinitely
             try {
-                leftFork.getLock().lock(); // wait till it acquires lock
+                leftFork.pickUp();; // wait till it acquires lock
 
                 // if available, acquires lock else return false and do not wait
-                if(rightFork.getLock().tryLock()){
+                if(rightFork.pickUpTry()){
                     try{
-                        eat();
+                        eat(); // guarantee that at most 1 philosopher holds both forks at a time
                     }finally {
-                        rightFork.getLock().unlock();
+                        rightFork.putDown();
                     }
+                }else{
+                    System.out.println("Philosopher " + index + " couldn't pick up right fork " + rightFork.getIndex());
                 }
             }finally {
-                leftFork.getLock().unlock();
+                // Always releases left fork (immediately if unable to acquire "right" else release after executing "eat")
+                leftFork.putDown();
             }
         }
+
+        System.out.println("Philosopher " + index + " is done eating");
     }
 
     public void think(){
@@ -44,12 +52,12 @@ public class Philosopher implements Runnable{
     }
 
     public void eat(){
-        System.out.println("Philosopher " + index + " started eating");
+        System.out.println(LocalTime.now() + " → Philosopher " + index + " started eating");
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("Philosopher " + index + " finished eating");
+        System.out.println(LocalTime.now() + " → Philosopher " + index + " finished eating");
     }
 }

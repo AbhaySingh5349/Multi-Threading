@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="multithreading issues" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Thread Safe implementation of custom hash map">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiningPhilosophers/Fork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Fork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiningPhilosophers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiningPhilosophers/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Philosopher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AbhaySingh5349&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AbhaySingh5349/Multi-Threading.git&quot;,
+    &quot;accountId&quot;: &quot;7d06fe0f-0b6a-4d75-b208-fd8dbc59bdcd&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -31,19 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/StockExchange/OptimizedApproach&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/Multi-Threading",
+    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\IdeaProjects\Multi-Threading\src" />
       <recent name="C:\Users\ACER\IdeaProjects\Java_Multi_threading\src\StockExchange\OptimizedApproach" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -211,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720270707571</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Thread Safe implementation of custom hash map">
+      <option name="closed" value="true" />
+      <created>1727362033589</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727362033589</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,7 +259,8 @@
     <MESSAGE value="parallel streams and join" />
     <MESSAGE value="executor service" />
     <MESSAGE value="multithreading issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="multithreading issues" />
+    <MESSAGE value="Thread Safe implementation of custom hash map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Safe implementation of custom hash map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

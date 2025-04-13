@@ -13,11 +13,11 @@ public class Main {
 
         List<Philosopher> philosophers = new ArrayList<>();
 
-        philosophers.add(new Philosopher(f2,f1, 0));
-        philosophers.add(new Philosopher(f3,f2,1));
-        philosophers.add(new Philosopher(f4,f3,2));
-        philosophers.add(new Philosopher(f5,f4,3));
-        philosophers.add(new Philosopher(f1,f3,4));
+        philosophers.add(new Philosopher(f1,f2, 0));
+        philosophers.add(new Philosopher(f2,f3,1));
+        philosophers.add(new Philosopher(f3,f4,2));
+        philosophers.add(new Philosopher(f4,f5,3));
+        philosophers.add(new Philosopher(f5,f1,4));
 
         for(Philosopher p : philosophers){
             Thread t = new Thread(p);
