@@ -1,14 +1,17 @@
 package TaskScheduler.TaskAtTime;
 
+// execute task at scheduled time or if consumer is not available, execute it ASAP after scheduled time
+// extension can be scheduling at fixed intervals
+
 public class Main {
     public static void main(String[] args) {
-        TaskConsumer tc1 = new TaskConsumer();
-        TaskConsumer tc2 = new TaskConsumer();
+        TaskConsumer tc1 = new TaskConsumer("consumer1");
+        TaskConsumer tc2 = new TaskConsumer("consumer2");
 
         final TaskSchedulerAt scheduler = new TaskSchedulerAt();
 
-        scheduler.registerConsumer(tc1);
-        scheduler.registerConsumer(tc2);
+        scheduler.initializeWorker(tc1);
+        scheduler.initializeWorker(tc2);
 
         scheduler.scheduleAfter("task1", (long) (1000));
         scheduler.scheduleAfter("task2", (long) (1000));

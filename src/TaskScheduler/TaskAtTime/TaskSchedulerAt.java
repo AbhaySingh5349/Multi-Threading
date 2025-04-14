@@ -1,10 +1,9 @@
 package TaskScheduler.TaskAtTime;
 
-import java.util.Date;
 import java.util.PriorityQueue;
 
 public class TaskSchedulerAt {
-    private final PriorityQueue<Task> pq;
+    private final PriorityQueue<Task> pq; // acting as a state
 
     public TaskSchedulerAt(){
         this.pq = new PriorityQueue<>((a, b) -> {
@@ -12,10 +11,10 @@ public class TaskSchedulerAt {
         });
     }
 
-    public void registerConsumer(IConsumer consumer){
+    public void initializeWorker(IConsumer consumer){
         // each thread is having its own Consumer Worker object which deals with its own work
         // since each worker is operating on same Q, we need to do synchronization at Q level
-        new Thread(new ConsumerWorker(pq, consumer)).start();
+        new Thread(new TaskWorker(pq, consumer)).start();
     }
 
     public void scheduleAfter(String msg, Long millisEpoch){
