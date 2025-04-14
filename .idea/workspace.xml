@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Thread Safe implementation of custom hash map">
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Updated logic for Dining Philosopher">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiningPhilosophers/Fork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Fork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiningPhilosophers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiningPhilosophers/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiningPhilosophers/Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoundedBlockingQueue/CustomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoundedBlockingQueue/CustomQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoundedBlockingQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoundedBlockingQueue/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/Multi-Threading",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/Multi-Threading&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/Java_Multi_threading/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\Multi-Threading\src" />
@@ -237,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727362033589</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated logic for Dining Philosopher">
+      <option name="closed" value="true" />
+      <created>1744549963091</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744549963091</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -260,7 +267,8 @@
     <MESSAGE value="executor service" />
     <MESSAGE value="multithreading issues" />
     <MESSAGE value="Thread Safe implementation of custom hash map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Safe implementation of custom hash map" />
+    <MESSAGE value="Updated logic for Dining Philosopher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated logic for Dining Philosopher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

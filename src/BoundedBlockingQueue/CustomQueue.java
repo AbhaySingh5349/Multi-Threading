@@ -22,7 +22,7 @@ public class CustomQueue {
 
                 // make thread waiting until space is available in Q
 
-                System.out.println(Thread.currentThread().getName() + " enqueue is waiting for " + num);
+                System.out.println(Thread.currentThread().getName() + " enqueue is waiting to add " + num);
                 try {
                     this.wait();
                 } catch (InterruptedException e) {
@@ -42,7 +42,7 @@ public class CustomQueue {
             while (items.isEmpty()){
 //            throw new RuntimeException("No items available");
 
-                System.out.println(Thread.currentThread().getName() + " dequeue is waiting");
+                System.out.println(Thread.currentThread().getName() + " dequeue is waiting to remove");
                 try {
                     this.wait();
                 } catch (InterruptedException e) {
