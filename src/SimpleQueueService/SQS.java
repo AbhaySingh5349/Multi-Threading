@@ -1,7 +1,7 @@
 package SimpleQueueService;
 
 // only 1 of the consumers will be processing the message
-// consumers receive message in FIFO order but we are not sure which consumer will actually process it as consumer can schedule it for later
+// consumers receive message in FIFO order but we are not sure which consumer will actually process it, as consumer can schedule it for later
 // SQS does not maintain ordering
 
 // whenever a msg is published to q, worker will be chosen to do calculation
@@ -27,7 +27,7 @@ public class SQS {
         }
     }
 
-    public void registerConsumer(IConsumer consumer){
+    public void initializeWorker(IConsumer consumer){
         consumers.add(consumer);
 
         // each thread is having its own Consumer Worker object which deals with its own work

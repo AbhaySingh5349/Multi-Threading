@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment=" Reentrant Lock for Blocking Q">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/ConsumerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskSchedulerAt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskSchedulerAt.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Optimized wait time for future tasks">
+      <change beforePath="$PROJECT_DIR$/src/MessageBroker/MB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageBroker/MB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleQueueService/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleQueueService/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleQueueService/SQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleQueueService/SQS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744604884159</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Optimized wait time for future tasks">
+      <option name="closed" value="true" />
+      <created>1744613472242</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1744613472242</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,7 +294,8 @@
     <MESSAGE value="Updated logic for Dining Philosopher" />
     <MESSAGE value="   Minor updates for Blocking Q" />
     <MESSAGE value=" Reentrant Lock for Blocking Q" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Reentrant Lock for Blocking Q" />
+    <MESSAGE value="Optimized wait time for future tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized wait time for future tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

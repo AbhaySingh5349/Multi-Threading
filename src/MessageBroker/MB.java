@@ -24,7 +24,7 @@ public class MB {
 
         SQS sqs = topicSqsQueues.get(subscriptionName);
         for (IConsumer consumer : consumers) {
-            sqs.registerConsumer(consumer);
+            sqs.initializeWorker(consumer);
         }
     }
 

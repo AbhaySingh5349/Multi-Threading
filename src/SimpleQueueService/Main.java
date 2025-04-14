@@ -9,8 +9,8 @@ public class Main {
         AdditionConsumer ac1 = new AdditionConsumer();
         AdditionConsumer ac2 = new AdditionConsumer();
 
-        sqs.registerConsumer(ac1);
-        sqs.registerConsumer(ac2);
+        sqs.initializeWorker(ac1);
+        sqs.initializeWorker(ac2);
 
 //        ConsumerMessage m1 = new ConsumerMessage(1, 2);
 //        ConsumerMessage m2 = new ConsumerMessage(2,3);
@@ -37,7 +37,5 @@ public class Main {
                 sqs.publish(new ConsumerMessage(a, b));
             }
         }
-
-
     }
 }
