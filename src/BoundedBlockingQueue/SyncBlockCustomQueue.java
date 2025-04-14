@@ -1,25 +1,23 @@
 package BoundedBlockingQueue;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 
 // State -> size of list
 // "this" lock
 
-public class CustomQueue {
+public class SyncBlockCustomQueue {
     private final int maxSize;
-    private final List<Integer> items;
+    private final Queue<Integer> items;
 
-    public CustomQueue(int maxSize){
+    public SyncBlockCustomQueue(int maxSize){
         this.maxSize = maxSize;
-        this.items = new ArrayList<>();
+        this.items = new LinkedList<>();
     }
 
     public void enqueue(Integer num){
         synchronized (this){
             while (items.size() == maxSize){
-//            throw new RuntimeException("Q Out Of Bounds");
-
                 // make thread waiting until space is available in Q
 
                 System.out.println(Thread.currentThread().getName() + " enqueue is waiting to add " + num);
@@ -50,7 +48,7 @@ public class CustomQueue {
                 }
             }
 
-            final Integer num = items.remove(0);
+            final Integer num = items.poll();
             System.out.println(num + " dequeued by " + Thread.currentThread().getName());
 
             this.notifyAll();
@@ -58,8 +56,10 @@ public class CustomQueue {
     }
 
     public void printList(){
-        for(Integer item : items){
-            System.out.println("Item val " + item);
+        synchronized (this) {
+            for (Integer item : items) {
+                System.out.println("Item val: " + item);
+            }
         }
     }
 }

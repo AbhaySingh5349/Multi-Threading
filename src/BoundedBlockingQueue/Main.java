@@ -1,14 +1,13 @@
 package BoundedBlockingQueue;
 
-import java.util.Scanner;
-
 // instead of throwing exception, keep current thread waiting
 // if it's for adding, wait for size to be in within limits
 // if it's for removing, wait for some element to be present
 
 public class Main {
     public static void main(String[] args) {
-        CustomQueue cq = new CustomQueue(2);
+        SyncBlockCustomQueue syncBlockCustomQueue = new SyncBlockCustomQueue(2);
+        ReentrantLockCustomQueue reentrantLockCustomQueue = new ReentrantLockCustomQueue(2);
 
 //        while(true){
 //            Scanner scanner = new Scanner(System.in);
@@ -36,7 +35,7 @@ public class Main {
 
         for(int i=0;i<5;i++){
             int finalI = i;
-            new Thread(() -> cq.enqueue(finalI)).start();
+            new Thread(() -> reentrantLockCustomQueue.enqueue(finalI)).start();
 
             try {
                 Thread.sleep(300);
@@ -46,7 +45,7 @@ public class Main {
         }
 
         for(int i=0;i<5;i++){
-            new Thread(cq::dequeue).start();
+            new Thread(reentrantLockCustomQueue::dequeue).start();
         }
 
         /*
