@@ -24,7 +24,7 @@ public class StockExchange {
     }
 
     public void modifyOrder(){
-
+        // naive way to achieve is -> cancel current + place new order
     }
 
     public void cancelOrder(Order order){
