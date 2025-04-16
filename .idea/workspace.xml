@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Minor conceptual updates for Task Scheduler">
-      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method1/ReadTimeLeaderBoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method2/WriteTimeLeaderBoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/AsyncLeaderBoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingWorker.java" afterDir="false" />
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Multithreaded LeaderBoard service">
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameLeaderboard/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLeaderboard/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameLeaderboard/method3/AsyncLeaderBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/AsyncLeaderBoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744780870822</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Multithreaded LeaderBoard service">
+      <option name="closed" value="true" />
+      <created>1744818793312</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1744818793312</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +312,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="print words in multi-threaded env" />
     <MESSAGE value="print words method 2 in multi-threaded env" />
     <MESSAGE value="print odd even method 1 in multi-threaded env" />
     <MESSAGE value="print odd even method 2 in multi-threaded env" />
@@ -330,6 +336,7 @@
     <MESSAGE value="Optimized wait time for future tasks" />
     <MESSAGE value="Minor updates for SQS" />
     <MESSAGE value="Minor conceptual updates for Task Scheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor conceptual updates for Task Scheduler" />
+    <MESSAGE value="Multithreaded LeaderBoard service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multithreaded LeaderBoard service" />
   </component>
 </project>

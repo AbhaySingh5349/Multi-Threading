@@ -7,12 +7,12 @@ import java.util.*;
 public class LeaderBoardRankingState {
     private final int k;
     private final Map<String, Player> playerMap;
-    private final Queue<Player> updateEventQueue;
+    private boolean updateLeaderBoard;
     private List<Player> topPlayerCache;
 
     public LeaderBoardRankingState(int k) {
         this.k = k;
-        this.updateEventQueue = new LinkedList<>();
+        this.updateLeaderBoard = false;
         this.playerMap = new HashMap<>();
         this.topPlayerCache = new ArrayList<>();
     }
@@ -21,8 +21,8 @@ public class LeaderBoardRankingState {
         return k;
     }
 
-    public Queue<Player> getUpdateEventQueue() {
-        return updateEventQueue;
+    public boolean isUpdateLeaderBoard() {
+        return updateLeaderBoard;
     }
 
     public Map<String, Player> getPlayerMap() {
@@ -31,6 +31,10 @@ public class LeaderBoardRankingState {
 
     public List<Player> getTopPlayerCache() {
         return topPlayerCache;
+    }
+
+    public void setUpdateLeaderBoard(boolean updateLeaderBoard) {
+        this.updateLeaderBoard = updateLeaderBoard;
     }
 
     public void setTopPlayerCache(List<Player> topPlayerCache) {

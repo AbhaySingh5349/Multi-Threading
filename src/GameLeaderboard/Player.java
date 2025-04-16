@@ -25,4 +25,12 @@ public class Player implements Comparable<Player> {
     public int compareTo(Player o) {
         return Integer.compare(o.getScore(), this.score);
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "id='" + id + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }

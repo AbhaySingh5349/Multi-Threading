@@ -35,7 +35,7 @@ public class AsyncLeaderBoardService {
         }
 
         synchronized (state){
-            state.getUpdateEventQueue().add(player);
+            state.setUpdateLeaderBoard(true);
             state.notifyAll();
         }
     }
