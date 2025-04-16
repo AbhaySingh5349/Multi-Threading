@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Minor updates for SQS">
+    <list default="true" id="13d33fbc-077e-4326-8d18-10ff1b736d11" name="Changes" comment="Minor conceptual updates for Task Scheduler">
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method1/ReadTimeLeaderBoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method2/WriteTimeLeaderBoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/AsyncLeaderBoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameLeaderboard/method3/LeaderBoardRankingWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/StockExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockExchange/OptimizedApproach/StockExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskScheduler/TaskAtTime/TaskWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +68,8 @@
       <recent name="C:\Users\ACER\IdeaProjects\Java_Multi_threading\src\StockExchange\OptimizedApproach" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GameLeaderboard.method3" />
+      <recent name="GameLeaderboard" />
       <recent name="PrintStrings.MethodTwo" />
     </key>
   </component>
@@ -277,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744615264021</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Minor conceptual updates for Task Scheduler">
+      <option name="closed" value="true" />
+      <created>1744780870822</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1744780870822</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +329,7 @@
     <MESSAGE value=" Reentrant Lock for Blocking Q" />
     <MESSAGE value="Optimized wait time for future tasks" />
     <MESSAGE value="Minor updates for SQS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor updates for SQS" />
+    <MESSAGE value="Minor conceptual updates for Task Scheduler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor conceptual updates for Task Scheduler" />
   </component>
 </project>
