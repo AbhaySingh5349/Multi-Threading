@@ -6,6 +6,9 @@ import java.util.Queue;
 // State -> size of list
 // "this" lock
 
+// If you call notifyAll(), you wake all threads, even if only one condition is met.
+// That means more threads wake up, check condition, and go back to sleep → wasted CPU.
+
 public class SyncBlockCustomQueue {
     private final int maxSize;
     private final Queue<Integer> items;

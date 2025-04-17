@@ -33,7 +33,7 @@ public class ReentrantLockCustomQueue {
             items.add(num);
             System.out.println(num + " enqueued by " + Thread.currentThread().getName());
 
-            isEmpty.signalAll(); // wake up waiting consumers
+            isEmpty.signal(); // wake up 1 waiting consumer
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt(); // best practice
         } finally {
@@ -52,7 +52,9 @@ public class ReentrantLockCustomQueue {
             Integer removed = items.poll();
             System.out.println(removed + " dequeued by " + Thread.currentThread().getName());
 
-            isFull.signalAll(); // wake one waiting producer
+            isFull.signal(); // wake up 1 waiting producer
+
+
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         } finally {
